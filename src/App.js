@@ -6,6 +6,8 @@ import Gallerypg from './components/website/gallery';
 import Applypg from './components/website/application';
 import Signup from './components/website/signup';
 import Login from './components/website/login';
+import Blogpg from './components/website/blogs';
+import Blogpost from './components/website/blogpost';
 function App() {
   return (
   
@@ -20,7 +22,8 @@ function App() {
           <Route path="/apply" element={<Applypg />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          
+          <Route path="/news" element={<Blogpg />} />
+          <Route path="/news:id" element={<Blogpost />} />
         </Routes>
       
     </Router>
