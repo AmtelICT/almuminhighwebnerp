@@ -11,8 +11,8 @@ export default function Landingpg(){
           <div className="home-left-side">
             <img
               alt="image"
-              //src="https://play.teleporthq.io/static/svg/default-img.svg"
-              src={"/images/almuminlogo.png"}
+              src="https://play.teleporthq.io/static/svg/default-img.svg"
+              //src={"/images/almuminlogo.png"}
               className="home-image"
             />
             <div data-role="BurgerMenu" className="home-burger-menu">
